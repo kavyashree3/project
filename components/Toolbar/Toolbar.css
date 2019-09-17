@@ -1,0 +1,66 @@
+.toolbar{
+    top:0;
+    left:0;
+    width:100%;
+    position:fixed;
+    background-color:purple;
+    height:56px;
+    z-index:100;
+}
+
+.toolbar_logo{
+    margin-left: 0.7rem;
+}
+
+.toolbar_logo a{
+    color:white;
+    text-decoration: none;      
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+}
+
+.toolbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding:0 1rem;
+}
+
+.toolbar_navigation-items li a{
+    padding:0 0.7rem;
+    font-family: 'Trebuchet MS';
+    color:white;
+    text-decoration: none;    
+    font-size: 15px;
+}
+
+.toolbar_navigation-items li a:hover,
+.toolbar_navigation-items li a:active{
+    color:orange;
+    text-decoration: none;
+}
+
+.toolbar_navigation-items ul{
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    display:flex;    
+}
+.toolbar_logo a:hover{
+    color:orange;
+    text-decoration: none;
+}
+
+.spacer{
+    flex:1;
+}
+
+.signer{
+    color:white;
+}
+.signer:hover{
+    text-decoration: none;
+    color:orange;
+    cursor: pointer;
+}

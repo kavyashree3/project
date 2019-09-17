@@ -1,0 +1,63 @@
+.newnav{
+    top:0;
+    left:0;
+    width:100%;
+    position:fixed;
+    background-color:purple;
+    height:56px;
+    z-index:200;
+}
+
+.newnav_logo{
+    margin-left: 0.7rem;
+}
+
+.newnav_logo a{
+    color:white;
+    text-decoration: none;      
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+}
+
+.newnav_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding:0 1rem;
+}
+
+.newnav_navigation-items li a{
+    padding:0 0.5rem;
+    font-family: 'Trebuchet MS';
+    color:white;
+    text-decoration: none;    
+    font-size: 15px;
+}
+
+.newnav_navigation-items li a:hover,
+.newnav_navigation-items li a:active{
+    color:orange;
+    text-decoration: none;
+}
+
+.newnav_navigation-items ul{
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    display:flex;    
+}
+.newnav_logo a:hover{
+    color:orange;
+    text-decoration: none;
+}
+
+.spacer{
+    flex:1;
+}
+
+.welcome{
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS';
+}

@@ -1,0 +1,26 @@
+.toggle-button{
+    height:16px;
+    width:25px;
+    background:transparent;
+    display:flex;   /* Applicable to all div child elements */
+    flex-direction:column;
+    border:none;
+    cursor:pointer;
+    padding:0;
+    box-sizing:border-box;
+    justify-content:space-around;
+}
+.toggle-button:focus {
+    outline:none;
+}
+.toggle-button-line {
+    width:25px;
+    height:2px;
+    background:white;
+}
+.toggle-button-line:hover,
+.toggle-button-line:active{
+    background-color:orange;
+    cursor: pointer;
+}
+

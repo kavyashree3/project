@@ -1,0 +1,46 @@
+.timer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.current-timer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 65px;
+  margin: auto;
+  line-height: 3.3;
+  width: 242px;
+  height: 226px;
+  border: 1px solid;
+  border-radius: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.timer-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.timer-captures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=timerstyle.css.map */

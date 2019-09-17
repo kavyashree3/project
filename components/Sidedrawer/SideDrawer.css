@@ -1,0 +1,72 @@
+.side-drawer{
+    background-color:mediumpurple;
+    height:100%;
+    box-shadow:2px 0px 5px rgba(0,0,0,0.5); /* area other than the box-shadow*/
+    width:250px;
+    position: fixed;     /* no scrolling */
+    top:0;
+    left:0;
+    z-index:200;
+    transform: translateX(-100%);   /* side-drawer slides out*/
+    transition:transform 0.3s ease-out;     /*time*/
+}
+.side-drawer.open{
+transform:translateX(0);     /* side-drawer slides in*/
+}
+
+.side-drawer ul{
+    height:100%;
+    list-style:none;
+    display:flex; /* gives common functionality to all the child elements */
+    flex-direction:column;
+    justify-content:center;
+}
+.side-drawer a{
+    color:mediumpurple;
+    text-decoration:none;
+    font-size:1.4rem;
+    font-family: 'Trebuchet MS';
+}
+.side-drawer li{
+    margin:2px 15px 1px 2px;
+}
+.side-drawer a:hover,
+.side-drawer a:active {
+    color:orange;
+    text-decoration: none;
+}
+
+.list-group-item{
+    top:0;
+    background-color:mediumslateblue;   
+    text-align-last: center;
+    font-size: 22px;   
+    color:white;     
+}
+.list-group-item:hover{
+    color:orange;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:purple;
+}
+
+.smalletters{
+    font-size: 11px !important;
+}
+
+.heading{    
+    font-family: 'Trebuchet MS' ;
+    font-size: 26px;
+    text-align-last: center;
+    color:black;
+}
+
+.heading:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.list-group li{
+    left:6px;    
+    top:0px;    
+}
